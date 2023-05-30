@@ -45,12 +45,12 @@ const Navbar = () => {
 <ul>
   <li className='w-[155px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
     <a className='w-full flex justify-between items-center text-gray-300'
-    href='/'>Linkein <FaLinkedin size={30}/>
+    href='https://www.linkedin.com/in/kevinshah12/' target='_blank'>Linkein <FaLinkedin size={30}/>
     </a>
   </li>
   <li className='w-[155px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
     <a className='w-full flex justify-between items-center text-gray-300'
-    href='/'>Github <FaGithub size={30}/>
+    href='https://github.com/KEVINs121998'>Github <FaGithub size={30}/>
     </a>
   </li>
   <li className='w-[155px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
