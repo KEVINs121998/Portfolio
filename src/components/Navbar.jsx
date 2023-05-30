@@ -50,12 +50,12 @@ const Navbar = () => {
   </li>
   <li className='w-[155px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
     <a className='w-full flex justify-between items-center text-gray-300'
-    href='https://github.com/KEVINs121998'>Github <FaGithub size={30}/>
+    href='https://github.com/KEVINs121998' target='_blank'>Github <FaGithub size={30}/>
     </a>
   </li>
   <li className='w-[155px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
     <a className='w-full flex justify-between items-center text-gray-300'
-    href='/'>Resume <BsFillPersonLinesFill size={30}/>
+    href='https://drive.google.com/file/d/1hRe28x2LhjYe6OsEqc_8CeSMYAydyeOb/view?usp=share_link' target='_blank'>Resume <BsFillPersonLinesFill size={30}/>
     </a>
   </li>
 </ul>
