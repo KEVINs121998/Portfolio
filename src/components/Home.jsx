@@ -1,4 +1,5 @@
 import React from 'react'
+import coder from '../assets/coder.jpg'
 
 const Home = () => {
     return (
