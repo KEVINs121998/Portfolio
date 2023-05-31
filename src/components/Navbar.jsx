@@ -23,9 +23,9 @@ const Navbar = () => {
 
 {/*mobile menu*/}
 <ul className={!nav?'hidden':'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
-    <li className='py-6 text-4xl'><a href='/'>Home</a></li>
-    <li className='py-6 text-4xl'><a href='/projects'>Projects</a></li>
-    <li className='py-6 text-4xl'><a href='/skills'>Skills</a></li>
+    <li className='py-6 text-4xl'><a className='border-b-4 border-pink-600' href='/'>Home</a></li>
+    <li className='py-6 text-4xl'><a className='border-b-4 border-pink-600' href='/projects'>Projects</a></li>
+    <li className='py-6 text-4xl'><a className='border-b-4 border-pink-600' href='/skills'>Skills</a></li>
   </ul>
 
   {/*social icons*/}
